@@ -18,3 +18,42 @@ git clone https://github.com/juancebellan/-e4-tutorial-github-colaborativo.git
 
 Esto creará una carpeta con el contenido del repositorio, incluyendo todo el historial de versiones.
 
+
+## git branch
+
+Las ramas permiten trabajar en nuevas tareas o características sin afectar la rama principal (main).
+
+**Ejemplo: Crear y cambiar a una nueva rama llamada flujo-basico**
+
+```bash
+git checkout -b flujo-basico
+```
+
+Esta rama servirá para hacer los cambios necesarios para tu tarea sin alterar el trabajo de tus compañeros.
+
+
+## git add
+
+El comando git add se usa para preparar los archivos modificados o nuevos antes de confirmarlos con el commit.
+
+**Ejemplo al crear o modificar el archivo flujo-basico.md:**
+
+```bash
+git add flujo-basico.md
+```
+También puedes añadir todos los archivos con:
+```bash
+git add .
+```
+
+
+## git commit
+
+El comando git commit guarda los cambios añadidos al área de preparación. Es como hacer una foto del estado actual del proyecto.
+
+**Ejemplo:**
+
+```bash
+git commit -m "mensaje de la accion realizada"
+```
+Es recomendable hacer commits con mensajes claros que expliquen qué has cambiado.
