@@ -57,3 +57,48 @@ El comando git commit guarda los cambios añadidos al área de preparación. Es 
 git commit -m "mensaje de la accion realizada"
 ```
 Es recomendable hacer commits con mensajes claros que expliquen qué has cambiado.
+
+
+## git push
+
+El comando git push envía los commits al repositorio remoto en GitHub, dentro de la rama en la que estás trabajando.
+
+**Ejemplo al subir una rama:**
+
+```bash
+git push origin flujo-basico
+```
+Esto hará que tus compañeros puedan ver tu trabajo en GitHub.
+
+
+## git pull
+
+El comando git pull se utiliza para descargar los últimos cambios del repositorio remoto y fusionarlos con tu rama local.
+
+**Ejemplo para actualizar tu rama:**
+
+```bash
+git pull origin main
+```
+Esto es útil para mantener tu rama al día con lo que han subido tus compañeros.
+
+
+## Pull Request
+
+Una vez termines tu trabajo en tu rama, debes crear un Pull Request. Esto es una solicitud para que tus cambios sean revisados y añadidos a la rama principal (main).
+
+**Pasos para crearlo:**
+
+1.- Sube tu rama a GitHub con git push.
+
+2.- Entra en el repositorio en GitHub.
+
+3.- Verás un botón que te permite comparar y abrir un Pull Request.
+
+4.- Asegúrate de que la base sea main y la comparación tu rama (ej: flujo-basico).
+
+5.- Añade un título y descripción explicando qué has hecho.
+
+6.- Pulsa Create Pull Request.
+
+Después, tus compañeros podrán revisarlo y fusionarlo.
