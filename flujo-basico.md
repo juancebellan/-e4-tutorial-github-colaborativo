@@ -101,4 +101,4 @@ Una vez termines tu trabajo en tu rama, debes crear un Pull Request. Esto es una
 
 6.- Pulsa Create Pull Request.
 
-Después, tus compañeros podrán revisarlo y fusionarlo.
+Después, tus compañeros podrán revisarlo y fusionarlo con lo que tengan.
