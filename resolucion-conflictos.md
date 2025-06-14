@@ -41,3 +41,37 @@ De esta manera tu tendras que aceptar el cual de los cambios quieres, si el camb
 que hay ahora mismo en la rama en la que estas on el cambio que quieres fusionar tu
 
 Así tendrias que solucionar todos los conflictos uno a uno.
+
+
+# Ejemplo de Conflicto y Resolución en Git
+
+Este ejemplo muestra cómo se genera un conflicto en Git y cómo resolverlo paso a paso.
+
+## Paso a paso
+
+```bash
+# Creamos una nueva rama
+git checkout -b rama-nueva
+
+# Editamos un archivo
+echo "Hola desde rama-nueva" >> archivo.txt
+git add archivo.txt
+git commit -m "Cambios en rama-nueva"
+
+# Volvemos a main y hacemos otro cambio
+git checkout main
+echo "Hola desde main" >> archivo.txt
+git add archivo.txt
+git commit -m "Cambios en main"
+
+# Intentamos hacer merge y se genera un conflicto
+git merge rama-nueva
+
+# Editamos archivo.txt para resolver el conflicto, luego:
+git add archivo.txt
+git commit -m "Conflicto resuelto"
+
+```
+
+De esta manera habremos crado un conflicto y lo habremos solucionado desde
+la linea de comandos    
