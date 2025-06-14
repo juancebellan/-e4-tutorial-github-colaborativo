@@ -49,6 +49,8 @@ Si, para ello Git hub tiene sistemas de revisiones y comunicación grupal:
 
 ---
 
+
+
 > GitHub no solo es para programadores. También es útil para cualquier proyecto donde se requiera control de versiones y colaboración entre diferentes personas.
 
 

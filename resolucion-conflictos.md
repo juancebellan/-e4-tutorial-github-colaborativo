@@ -22,3 +22,22 @@ Git te avisa automáticamente durante el proceso:
 Auto-merging archivo.txt
 CONFLICT (content): Merge conflict in archivo.txt
 Automatic merge failed; fix conflicts and then commit the result.
+
+```
+
+---
+
+## ¿Como aparecen los conflictos?
+
+El archivo en conflicto aparecera de al siguiente manera
+
+<<<<<<< HEAD
+Cambios desde tu rama actual
+=======
+Cambios desde la rama que estás intentando fusionar
+>>>>>>> rama-secundaria
+
+De esta manera tu tendras que aceptar el cual de los cambios quieres, si el cambio
+que hay ahora mismo en la rama en la que estas on el cambio que quieres fusionar tu
+
+Así tendrias que solucionar todos los conflictos uno a uno.
