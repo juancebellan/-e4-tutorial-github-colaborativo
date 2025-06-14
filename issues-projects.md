@@ -42,3 +42,23 @@ Permiten filtrar tareas por prioridad, tipo o dificultad.
 
 ------------
 
+## Milestones
+
+Un **Milestone** es una meta concreta que agrupa varios Issues relacionados. Se puede usar, por ejemplo, para agrupar todas las tareas necesarias para una entrega del proyecto o una versión.
+
+Permiten llevar control de cuánto se ha completado y qué falta para alcanzar un objetivo mayor.
+
+### Ejemplo:
+- Milestone: `Entrega E4`
+- Issues incluidos:
+  - `#1 Redactar flujo-basico.md`
+  - `#2 Simular conflicto`
+  - `#3 Redactar uso de Issues`
+
+------------
+
+## Asignación de Tareas
+
+Dentro de cada Issue se pueden asignar colaboradores, indicando quién se encargará de realizar esa tarea. Así se reparte el trabajo de forma clara y organizada. Se puede asignar a solo una persona o a varias si la van a realizar más personas. 
+
+También se pueden asignar desde el **Project**, conectando las tarjetas con Issues y usuarios.
