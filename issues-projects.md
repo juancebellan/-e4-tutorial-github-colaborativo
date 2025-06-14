@@ -27,3 +27,18 @@ Sirve para visualizar el estado del proyecto y ver quién está haciendo cada co
 
 Cada tarjeta del proyecto puede representar un **Issue**, y se puede mover entre columnas a medida que avanza el trabajo.
 
+------------
+
+## Etiquetas
+
+Las **etiquetas** o **labels** ayudan a categorizar los Issues. Algunas etiquetas comunes son:
+
+- `bug`: indica un error.
+- `enhancement`: indica una mejora o nueva funcionalidad.
+- `question`: para dudas o aclaraciones.
+- `documentación`, `urgente`, `fácil`... (se pueden personalizar).
+
+Permiten filtrar tareas por prioridad, tipo o dificultad.
+
+------------
+
