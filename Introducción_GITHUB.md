@@ -4,7 +4,7 @@
 
 [GitHub](https://github.com/) es una forja para alojar proyectos utilizando el sistema de control de versiones **Git**. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc.
 
-¿Que ventajas da Git Hub?
+¿Qué ventajas da GitHub?
 - Guardar versiones del código.
 - Colaborar con múltiples personas al mismo tiempo.
 - Revisar cambios realizados por otros miembros del equipo.
@@ -12,10 +12,10 @@
 
 ### Historia de GitHub
 
-Git Hub como compañia comienza en **2007** cuando se registra oficialmente la compañia, pero es lanzado publicamente en **2008**,  desarrollado por Chris Wanstrath, P. J. Hyett, Tom Preston-Werner y Scott Chacon utilizando el framework Ruby on Rails. En su primer año, GitHub acumuló 46.000 repositorios públicos, incluyendo 
+GitHub como compañia comienza en **2007** cuando se registra oficialmente la compañia, pero es lanzado publicamente en **2008**,  desarrollado por Chris Wanstrath, P. J. Hyett, Tom Preston-Werner y Scott Chacon utilizando el framework Ruby on Rails. En su primer año, GitHub acumuló 46.000 repositorios públicos, incluyendo 
 6.200 forks y 4.600 fusiones. Para **julio de 2009** alcanzó 100.000 usuarios registrados. En **agosto**, sumaban 90.000 repositorios únicos y 135.000 con forks.
 
-En **2010** anuncian que han llegado al millos de usuarios, para **2012** llevaban un 300% de crecimiento a anual desde el lanzamiento, en **2013**** GitHub supera los 3 millones de usuarios registrados y más de 5 millones de repositorios alojados.
+En **2010** anuncian que han llegado al millos de usuarios, para **2012** llevaban un 300% de crecimiento a anual desde el lanzamiento, en **2013** GitHub supera los 3 millones de usuarios registrados y más de 5 millones de repositorios alojados.
 
 En **2018** Microsoft anuncia la compra de GitHub por un importe de 7.500 millones de dólares en acciones.
 
