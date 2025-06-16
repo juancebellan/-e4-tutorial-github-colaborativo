@@ -6,3 +6,18 @@ las cosas que vas a añadir, ya que de esta manera se puede saber bien que cosas
 ## Convenciones para mensajes de commit
 
 Seguir una estructura clara en los commits ayuda a mantener un historial limpio, comprensible y profesional. A continuación, se indican las mejores prácticas usando la convención `Conventional Commits`. Esta fue una convención creada por el equipo Angular en **2018**, con el fin de estandarizar los mensajes de commit dentro de su ecosistema.
+
+### Ejemplos:
+
+Alguno mensajes genericos que se pueden poner son los siguientes
+- `feat`: Añadir una nueva funcionalidad
+- `fix`: corregir un error
+- `docs`: Cambios en la documentación
+- `style`: Cambios de estilo
+- `refactor`: Reestructuración del código sin cambiar su comportamiento  
+- `test`: Añadir o modificar tests 
+- `chore`: Tareas menores que no afectan directamente el código (actualizar dependencias, configuración, etc.)
+
+>Estos mensajes se ponen lo primero y luego se explica un poco la funcionalidad
+
+
