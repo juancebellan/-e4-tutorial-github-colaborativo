@@ -20,4 +20,34 @@ Alguno mensajes genericos que se pueden poner son los siguientes
 
 >Estos mensajes se ponen lo primero y luego se explica un poco la funcionalidad
 
+##  Convenciones para Nombres de Ramas
+
+Nombrar las ramas de forma clara y consistente ayuda a entender su propósito sin necesidad de inspeccionar el contenido. 
+
+### Ejemplos
+
+`feature/`: Nuevas funcionalidades
+`fix/`: Correcciones de errores
+`hotfix/`: Correcciones urgentes en producción
+`chore/`: Tareas de mantenimiento o configuración
+`docs/`: Cambios en la documentación
+`refactor/`: Reestructurar código sin modificar funcionalidad
+`test/`: Ramas relacionadas con pruebas
+
+---
+
+## Recomendaciones Generales
+
+A parte de seguir los mensajes genericos, es importante seguir un estilo fijo todo el rato
+por ello algunos recomendaciones son:
+
+- Escribir los mensajes de commit en **modo imperativo**: "añadir" en lugar de "añadido".
+- Limitar la descripción a **máximo 72 caracteres**.
+- Utilizar el cuerpo del commit (si es necesario) para explicar el "por qué" del cambio.
+- Evitar mensajes genéricos como `update`, `cambiar`, `eliminar`, `agregar`, `cosas`.
+
+
+
+
+
 
