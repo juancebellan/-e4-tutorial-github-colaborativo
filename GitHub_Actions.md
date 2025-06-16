@@ -15,4 +15,20 @@ Las tareas más comunes de que se pueden hacer con **GitHub Actions** son:
 - Generar documentación automáticamente.
 
 ---
+## ¿Qué es CI/CD?
+
+CI/CD son siglas que significan:
+
+| Sigla | Significado                     | Qué hace                                                       |
+|-------|---------------------------------|----------------------------------------------------------------|
+| CI    | *Continuous Integration*         | Integración continua: Ejecuta pruebas y verifica el código automáticamente en cada cambio. |
+| CD    | *Continuous Delivery/Deployment* | Entrega o despliegue continuo: Automatiza el despliegue del código a producción o entornos de prueba. |
+
+---
+
+### Ventajas de usar GitHub Actions y CI/CD
+
+El uso de automatización en el desarrollo aporta múltiples beneficios, tanto en proyectos personales como colaborativos, entre otras cosas, GitHub Actions y CI/CD mejoran la calidad del software ya que automatizas pruebas y analisis, de esta manera se pueden evitar errores o fallos de formateo. Además, mejora la eficiencia ya que se ocupa de tareas repetitivas y permiten escalar la automatización conforme crece el proyecto.
+
+
 
