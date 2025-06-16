@@ -1,7 +1,7 @@
 # Convenciones de Commits y Nombres de Ramas
 
-Es importante, nombrar a las cosas correctamente y explicar bien todas
-las cosas que vas a añadir, ya que de esta manera se puede saber bien que cosas se han modificado añadido y quitado, de esta manera para los demas desarrolladores y colaboradores es facil hacer un seguimiento de los cambios.
+Es importante nombrar a las cosas correctamente y explicar bien todas
+las cosas que vas a añadir, ya que de esta manera se puede saber bien qué cosas se han modificado, añadido y/o quitado, de esta manera para los demas desarrolladores y colaboradores es facil hacer un seguimiento de los cambios.
 
 ## Convenciones para mensajes de commit
 
@@ -9,7 +9,7 @@ Seguir una estructura clara en los commits ayuda a mantener un historial limpio,
 
 ### Ejemplos:
 
-Alguno mensajes genericos que se pueden poner son los siguientes
+Algunos mensajes genéricos que se pueden poner son los siguientes:
 - `feat`: Añadir una nueva funcionalidad
 - `fix`: corregir un error
 - `docs`: Cambios en la documentación
@@ -38,10 +38,9 @@ Nombrar las ramas de forma clara y consistente ayuda a entender su propósito si
 
 ## Recomendaciones Generales
 
-A parte de seguir los mensajes genericos, es importante seguir un estilo fijo todo el rato
-por ello algunos recomendaciones son:
+A parte de seguir los mensajes genericos, es importante seguir un estilo fijo todo el rato por ello algunas recomendaciones son:
 
-- Escribir los mensajes de commit en **modo imperativo**: "añadir" en lugar de "añadido".
+- Escribir los mensajes de commit en **modo infinitivo**: "añadir" en lugar de "añadido".
 - Limitar la descripción a **máximo 72 caracteres**.
 - Utilizar el cuerpo del commit (si es necesario) para explicar el "por qué" del cambio.
 - Evitar mensajes genéricos como `update`, `cambiar`, `eliminar`, `agregar`, `cosas`.
