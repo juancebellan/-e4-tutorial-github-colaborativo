@@ -1,6 +1,6 @@
 # Resolución de Conflictos en Git
 
-En el caso de que varias personas trabajen en un mismo archivo, es normal que surgan conflictos, estos se deben a que Git no sabe cual de los dos criterios prevalece, por ejemplo si en una misma linea de archivo, un usuario la edita y otro la elimina, en estos casos Git no sabe cual de los dos criterios es el correcto y lanza un error de conflicto
+En el caso de que varias personas trabajen en un mismo archivo, es normal que surjan conflictos, estos se deben a que Git no sabe cual de los dos criterios prevalece, por ejemplo si en una misma linea de archivo, un usuario la edita y otro la elimina, en estos casos Git no sabe cual de los dos criterios es el correcto y lanza un error de conflicto
 
 ---
 
