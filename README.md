@@ -4,31 +4,21 @@ Este repositorio contiene una recopilación de buenas prácticas para el desarro
 
 -----------
 
-## Convenciones de Commits
+## Introducción a GitHub
 
-Una buena convención en los mensajes de commit mejora la claridad del historial y facilita el trabajo en equipo. Utilizamos la convención **Conventional Commits**, que establece una estructura clara:
+**GitHub** es una plataforma basada en la nube que permite almacenar, gestionar y colaborar en proyectos que usan Git.
 
-```
-<tipo>[alcance]: <mensaje en infinitivo>
-```
+### ¿Por qué usar GitHub?
 
-### Tipos más comunes:
+- Control de versiones distribuido
+- Trabajo colaborativo
+- Automatización de procesos (CI/CD)
+- Visualización de tareas y problemas
+- Hosting gratuito para proyectos públicos
 
-- `feat`: Nueva funcionalidad
-- `fix`: Corrección de errores
-- `docs`: Cambios en la documentación
-- `style`: Formato, sin afectar el código
-- `refactor`: Reestructuración de código
-- `test`: Añadir o modificar tests
-- `chore`: Tareas de mantenimiento
+### Historia breve
 
-### Ejemplo:
-
-```bash
-git commit -m "feat(login): añadir validación de formulario"
-```
-
-Escribe los mensajes en modo infinitivo: `"añadir"`, no `"añadido"`.
+GitHub fue fundado en 2008 y rápidamente se convirtió en la plataforma líder para el alojamiento de código fuente. En 2018 fue adquirida por Microsoft y hoy cuenta con más de 100 millones de desarrolladores registrados.
 
 -----------
 
@@ -72,21 +62,52 @@ Permite la revisión del código antes de fusionarlo a la rama principal.
 
 -----------
 
-## Introducción a GitHub
+## Convenciones de Commits
 
-**GitHub** es una plataforma basada en la nube que permite almacenar, gestionar y colaborar en proyectos que usan Git.
+Una buena convención en los mensajes de commit mejora la claridad del historial y facilita el trabajo en equipo. Utilizamos la convención **Conventional Commits**, que establece una estructura clara:
 
-### ¿Por qué usar GitHub?
+```
+<tipo>[alcance]: <mensaje en infinitivo>
+```
 
-- Control de versiones distribuido
-- Trabajo colaborativo
-- Automatización de procesos (CI/CD)
-- Visualización de tareas y problemas
-- Hosting gratuito para proyectos públicos
+### Tipos más comunes:
 
-### Historia breve
+- `feat`: Nueva funcionalidad
+- `fix`: Corrección de errores
+- `docs`: Cambios en la documentación
+- `style`: Formato, sin afectar el código
+- `refactor`: Reestructuración de código
+- `test`: Añadir o modificar tests
+- `chore`: Tareas de mantenimiento
 
-GitHub fue fundado en 2008 y rápidamente se convirtió en la plataforma líder para el alojamiento de código fuente. En 2018 fue adquirida por Microsoft y hoy cuenta con más de 100 millones de desarrolladores registrados.
+### Ejemplo:
+
+```bash
+git commit -m "feat(login): añadir validación de formulario"
+```
+
+Escribe los mensajes en modo infinitivo: `"añadir"`, no `"añadido"`.
+
+-----------
+
+## Issues, Projects y Milestones
+
+### Issues
+
+Los **Issues** son tickets que representan tareas, errores o ideas. Cada issue puede tener:
+
+- Título y descripción
+- Etiquetas (bug, feature, enhancement...)
+- Asignados
+- Comentarios
+
+### Milestones
+
+Permiten agrupar issues bajo un mismo objetivo o versión del proyecto. Útil para planificar entregas.
+
+### Projects
+
+Los **Projects** de GitHub permiten organizar los issues como en un tablero Kanban. Son ideales para visualizar el progreso general.
 
 -----------
 
@@ -119,27 +140,6 @@ jobs:
 Guarda el workflow en la ruta: `.github/workflows/nombre.yml`.
 
 -----------
-
-## Issues, Projects y Milestones
-
-### Issues
-
-Los **Issues** son tickets que representan tareas, errores o ideas. Cada issue puede tener:
-
-- Título y descripción
-- Etiquetas (bug, feature, enhancement...)
-- Asignados
-- Comentarios
-
-### Milestones
-
-Permiten agrupar issues bajo un mismo objetivo o versión del proyecto. Útil para planificar entregas.
-
-### Projects
-
-Los **Projects** de GitHub permiten organizar los issues como en un tablero Kanban. Son ideales para visualizar el progreso general.
-
----
 
 ## Recomendaciones Finales
 
